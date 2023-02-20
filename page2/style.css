@@ -1,0 +1,103 @@
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  .error-text h1 {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    font-size: 36px;
+    overflow: hidden; 
+    border-right: .15em solid #C4C4C4; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .025em; 
+    animation: 
+    typing 4.25s steps(40, end), blink-caret .75s step-end infinite;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: inline-block;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+    font-size: 50px;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #C4C4C4; }
+  }
+  .frame_1{
+width: 900px;
+height: 500px;
+margin-bottom: 0px;
+margin-left: 400px;
+  }
+  /*.para-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+  }*/
+  .para-1{
+    font-family: 'didot';
+    font-size:20px;
+    text-align: right;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+    float: left;
+    letter-spacing: 50px;
+    color: white;
+    display: inline-block;
+  }
+/* @media screen and (min-width: 601px){
+    .para-2{
+      font-size: 80px;
+    }*/
+  .para-2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: solid;
+    display: inline-block;
+    width: 100px;
+  }
+  .para-two{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: solid;
+    display: inline-block;
+    width: 100px;
+  }
+  .para-three{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display: inline-block;
+    border-style: solid;
+    width: 100px;
+  }
+  .para-four{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display: inline-block;
+    border-style: solid;
+    width: 100px;
+  }
+  .para-five{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display: inline-block;
+    border-style: solid;
+    width: 100px;
+  }
+
+  .circle-one{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .in-poetry{
+    font-size: 60px;
+  }

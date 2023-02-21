@@ -1,7 +1,7 @@
   body {
     background-color: rgb(0, 0, 0);
   }
-  .error-text h1 {
+ /* .error-text h1 {
     white-space: pre-line;
     overflow-wrap: break-word;
     font-size: 60%;
@@ -19,7 +19,7 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: red;
     font-size: 50px;
-  }
+  }*/
   @keyframes typing {
     from { width: 0 }
     to { width: 50% }
@@ -30,7 +30,7 @@
     50% { border-color: #C4C4C4; }
   }
   .frame_1{
-width: 900px;
+width: 50px;
 height: 500px;
 margin-bottom: 0px;
 margin-left: 400px;
@@ -40,17 +40,21 @@ margin-left: 400px;
     color:white;
   }*/
   .para-1{
-    font-family: 'didot';
+    /*font-family: 'didot';
     font-size:20px;
     text-align: right;
-    width: 200px;
+    width: 50px;
     margin-top: 50px;
     margin-left: 200px;
-    float: left;
-    letter-spacing: 50px;
     color: white;
+    display: inline-block;*/
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: solid;
     display: inline-block;
+    width: 100px;
   }
+
 /* @media screen and (min-width: 601px){
     .para-2{
       font-size: 80px;
@@ -77,6 +81,13 @@ margin-left: 400px;
     width: 100px;
   }
   .para-four{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display: inline-block;
+    border-style: solid;
+    width: 100px;
+  }
+  .para-cuatro{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     display: inline-block;
@@ -168,4 +179,10 @@ margin-left: 400px;
     font-weight: 800;
     font-size: 4.5vw;
     text-transform: uppercase;
+  }
+
+  .transpa{
+    float: top;
+    margin: 0;
+    display: inline-block;
   }

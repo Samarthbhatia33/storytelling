@@ -4,33 +4,35 @@ body{
 }
 .title-word {
   animation: color-animation 4s linear infinite;
+  text-decoration: none;
+  margin-top: 0px;
 }
 
 .title-word-1 {
   --color-1: #000000;
-  --color-2: #909090;
-  --color-3: #e0e0e0;
+  --color-2: #ffffff;
+  --color-3: #000000;
 }
 
 .title-word-2 {
-  --color-1: #000000;
-  --color-2: #000000;
+  --color-1: #ffffff;
+  --color-2: #ffffff;
   --color-3: #ffffff;
 }
 
 .title-word-3 {
   --color-1: #000000;
-  --color-2: #888888;
-  --color-3: #ffffff;
+  --color-2: #ffffff;
+  --color-3: #000000;
 }
 
 .title-word-4 {
-  --color-1: #000000;
+  --color-1: hsl(0, 0%, 0%);
   --color-2: #ffffff;
-  --color-3: #ffffff;
+  --color-3: #000000;
 }
 .title-word-5 {
-  --color-1: #000000;
+  --color-1: #ffffff;
   --color-2: #ffffff;
   --color-3: #000000;
 }
@@ -54,9 +56,8 @@ body{
 
 .title {
   font-family: serif;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 4.5vw;
-  text-transform: uppercase;
 }
 
   
@@ -85,6 +86,7 @@ body{
   }
   .circle-one{
 margin-left: 100px;
+
   }
 
 
@@ -110,7 +112,10 @@ margin-left: 100px;
     perspective-origin: 50% 50%;
     
   }
-  
+  .first{
+    color: white;
+    text-decoration: none;
+  }
   @keyframes scroll {
      100%{
       background-position:0px -3000px;

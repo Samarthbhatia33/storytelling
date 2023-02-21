@@ -36,13 +36,13 @@ body{
 }
 
 @keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
+  10%    {color: var(--color-1)}
+  5%   {color: var(--color-1)}
   33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
+  44%   {color: var(--color-2)}
   66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
+  57%   {color: var(--color-3)}
+  95%  {color: var(--color-1)}
 }
 .container {
   display: grid;
@@ -55,10 +55,8 @@ body{
 .title {
   font-family: serif;
   font-weight: 800;
-  font-size: 10.5vw;
-}
-
-  
+  font-size: 140px;
+}  
   .para-1{
     font-family: serif;
     font-size: 25px;
@@ -69,8 +67,8 @@ body{
     /*margin-right: 600px;*/
     width: 50%;
     --color-1: #000000;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
   }
   .para-2{
     font-family: serif;
@@ -85,7 +83,7 @@ body{
   }
   .para-3{
     font-family: serif;
-    color:white;
+    color:black;
     font-size: 25px;
     margin-top: 100px;
    margin-left: 200px;
@@ -93,6 +91,9 @@ body{
     letter-spacing: -3.5px;
     /*margin-right: 600px;*/
     width: 50%;
+    --color-1: #000000;
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
   }
   .para-4{
     font-family: serif;
@@ -149,4 +150,11 @@ margin-left: 100px;
     .title {
       font-size: 5rem;
     }
+  }
+  .poets{
+    font-family: serif;
+    color:white;
+    font-size: 40px;
+    display: inline-block;
+    letter-spacing: -3.5px;
   }

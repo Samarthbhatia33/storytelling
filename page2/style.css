@@ -186,3 +186,10 @@ margin-left: 400px;
     margin: 0;
     display: inline-block;
   }
+  .angel{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 0, 0);
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+  }

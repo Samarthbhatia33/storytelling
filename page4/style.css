@@ -154,4 +154,6 @@ margin-bottom: 0px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: red;
     color: white;
+    text-align: center;
+    text-decoration: 0px;
   }

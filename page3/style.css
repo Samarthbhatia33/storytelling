@@ -1,0 +1,172 @@
+ /*I have never, in my life, read a poem that ended with the words The End. Why is that,I wonder. I think perhaps the brevity of poems compared to novels makes one feel that there has been no great sustention of energy, no marathon worthy of pulling tape across the finish line. And then I found a poem of mine that I had carefully written by hand in the sixth grade, and at the bottom of the page, in India ink, beautifully apart from the rest of the text, were the words The End. And I 
+   realized children very often denote the end because it is indeed a great achievement for them to have written anything, and they are completely unaware of the number of stories and poems that have already been written; they know some, of course, but have not yet found out the extent to which they are not the only persons residing on the planet. And so they sign their poems and stories like kings. Which is a wonderful thing. */
+  body {
+    background-color: rgb(0, 22, 223);
+  }
+/*  @keyframes color {
+    0%   { background: rgb(255,31,31); }
+    20%   { background: rgb(253, 228, 36)}
+    30%  { background: #12b3cc; }
+    40%  {background: rgb(39, 102, 238); }
+    50%  { background: #12b3cc; }
+    60%  { background: rgb(253, 228, 36) }
+    80%  { background: #169fe4; }
+    100% { background: #0cc243; }
+  }*/ 
+  /*.error-text h1 {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    color: #ffffff;
+    font-size: 36px;
+    overflow: hidden; 
+    border-right: .15em solid #C4C4C4; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .025em; 
+    animation: 
+    typing 4.25s steps(40, end), blink-caret .75s step-end infinite;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: inline-block;
+    -webkit-text-stroke-width: 100px;
+    -webkit-text-stroke-color: red;
+    font-size: 50px;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #C4C4C4; }
+  }*/
+  .begin{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: larger;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .frame_1{
+width: 500px;
+margin-bottom: 0px;
+margin-bottom:5px;
+  }
+  .frame_2{
+    width: 500px;
+    margin-bottom:5px;
+    margin-left: 50px;
+      }
+  /*.para-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+  }*/
+  .para-1{
+    font-family: serif;
+    color:white;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom:2px;
+    display: inline-block;
+    letter-spacing: -3.5px;
+    /*margin-right: 600px;*/
+    width: 50%;
+  }
+  .para-2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-family: serif;
+    font-size: 25px;
+    margin-top: 2px;
+    display: inline-block;
+    letter-spacing: -3.5px;
+    /*margin-right: 600px;*/
+    width: 50%;
+    --color-1: #000000;
+
+  }
+  .para-3{
+    font-family: Arial, Helvetica, sans-serif;
+    /*color:white;*/
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    font-size: 4.5vh;
+    width: 50%;
+    color:rgb(0, 22, 223);
+    margin-top: 2px;
+  }
+  .para-4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: solid;
+    display: inline-block;
+    width: 100px;
+  }
+  .para-four{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: solid;
+    display: inline-block;
+    width: 100px;
+  }
+  .para-cuatro{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: solid;
+    display: inline-block;
+    width: 100px;
+  }
+  .circle-one{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .in-poetry{
+    font-size: 60px;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
+.title {
+  font-size: 2.5rem;
+  font-family: 'Lobster', cursive;
+}
+.wrapper {
+  animation: scroll 70s linear infinite;
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+  height: 45vh;
+  width: 35%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-left: 200px;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+@media (min-width: 670px) {
+  .title {
+  }
+}
+.inevitable{
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  font-size: 4.5vh;
+  color:0000FF;
+  text-decoration: none;
+}
